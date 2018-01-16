@@ -8,9 +8,11 @@
 
 #import "ViewController.h"
 #import "FRDestView.h"
+#import "FRSourceView.h"
 
 @interface ViewController () {
     FRDestView *destView;
+    FRSourceView *sourceView;
 }
 
 @end
@@ -19,9 +21,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    //
+    sourceView = [[FRSourceView alloc] initWithFrame:NSMakeRect(50, 50, 100, 100)];
+    sourceView.image = [NSImage imageNamed:@"demopic.png"];
+    [self.view addSubview:sourceView];
+    //
     destView = [[FRDestView alloc] initWithFrame:NSMakeRect(200, 50, 100, 100)];
     [self.view addSubview:destView];
+
 }
 
 

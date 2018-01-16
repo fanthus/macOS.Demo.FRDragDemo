@@ -9,6 +9,7 @@
 #import "FRDestView.h"
 
 @interface FRDestView ()<NSDraggingDestination> {
+    NSImage *desImage;
 
 }
 
@@ -30,7 +31,7 @@
 }
 
 - (void)setup {
-    NSArray *pasteboardTypes = @[NSURLPboardType];
+    NSArray *pasteboardTypes = @[NSURLPboardType,NSTIFFPboardType];
     [self registerForDraggedTypes:pasteboardTypes];
 }
 
@@ -38,6 +39,8 @@
     _isReceivingDrag = isReceivingDrag;
     [self setNeedsDisplay:YES];
 }
+
+
 
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
@@ -49,6 +52,9 @@
         path.lineWidth = 2;
         [path stroke];
     }
+    if (desImage) {
+        [desImage drawInRect:dirtyRect];
+    }
 }
 
 - (BOOL)shouldAllowDrag:(id<NSDraggingInfo>)draggingInfo {
@@ -58,6 +64,11 @@
     if ([pasteBoard canReadObjectForClasses:@[[NSURL class]] options:filteringOptions]) {
         canAccept = YES;
     }
+
+    if ([pasteBoard.types containsObject:NSTIFFPboardType]) {
+        canAccept = YES;
+    }
+
     return canAccept;
 }
 
@@ -86,6 +97,14 @@
     NSArray *urls = [pasteBoard readObjectsForClasses:@[[NSURL class]] options:filteringOptions];
     if (urls.count > 0) {
         NSURL *url = [urls objectAtIndex:0];
+        desImage = [[NSImage alloc] initWithContentsOfURL:url];
+        [self setNeedsDisplay:YES];
+        return YES;
+    }
+    NSImage *image = [[NSImage alloc] initWithPasteboard:pasteBoard];
+    if (image) {
+        desImage = image;
+        [self setNeedsDisplay:YES];
         return YES;
     }
     return NO;

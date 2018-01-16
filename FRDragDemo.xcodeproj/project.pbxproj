@@ -15,6 +15,8 @@
 		B532FF58200C9E4A00D45B15 /* FRDragDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FF57200C9E4A00D45B15 /* FRDragDemoTests.m */; };
 		B532FF63200C9E4A00D45B15 /* FRDragDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FF62200C9E4A00D45B15 /* FRDragDemoUITests.m */; };
 		B532FFB5200DC9D300D45B15 /* FRDestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FFB4200DC9D300D45B15 /* FRDestView.m */; };
+		B532FFB8200DDA8000D45B15 /* FRSourceView.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FFB7200DDA8000D45B15 /* FRSourceView.m */; };
+		B532FFBA200DDF0400D45B15 /* demopic.png in Resources */ = {isa = PBXBuildFile; fileRef = B532FFB9200DDF0400D45B15 /* demopic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		B532FF64200C9E4A00D45B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B532FFB3200DC9D300D45B15 /* FRDestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRDestView.h; sourceTree = "<group>"; };
 		B532FFB4200DC9D300D45B15 /* FRDestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRDestView.m; sourceTree = "<group>"; };
+		B532FFB6200DDA8000D45B15 /* FRSourceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRSourceView.h; sourceTree = "<group>"; };
+		B532FFB7200DDA8000D45B15 /* FRSourceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRSourceView.m; sourceTree = "<group>"; };
+		B532FFB9200DDF0400D45B15 /* demopic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demopic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +108,15 @@
 		B532FF3F200C9E4900D45B15 /* FRDragDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B532FFB9200DDF0400D45B15 /* demopic.png */,
 				B532FF40200C9E4900D45B15 /* AppDelegate.h */,
 				B532FF41200C9E4900D45B15 /* AppDelegate.m */,
 				B532FF43200C9E4900D45B15 /* ViewController.h */,
 				B532FF44200C9E4900D45B15 /* ViewController.m */,
 				B532FFB3200DC9D300D45B15 /* FRDestView.h */,
 				B532FFB4200DC9D300D45B15 /* FRDestView.m */,
+				B532FFB6200DDA8000D45B15 /* FRSourceView.h */,
+				B532FFB7200DDA8000D45B15 /* FRSourceView.m */,
 				B532FF46200C9E4900D45B15 /* Assets.xcassets */,
 				B532FF48200C9E4900D45B15 /* Main.storyboard */,
 				B532FF4B200C9E4900D45B15 /* Info.plist */,
@@ -242,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B532FFBA200DDF0400D45B15 /* demopic.png in Resources */,
 				B532FF47200C9E4900D45B15 /* Assets.xcassets in Resources */,
 				B532FF4A200C9E4900D45B15 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			files = (
 				B532FF45200C9E4900D45B15 /* ViewController.m in Sources */,
 				B532FFB5200DC9D300D45B15 /* FRDestView.m in Sources */,
+				B532FFB8200DDA8000D45B15 /* FRSourceView.m in Sources */,
 				B532FF4D200C9E4900D45B15 /* main.m in Sources */,
 				B532FF42200C9E4900D45B15 /* AppDelegate.m in Sources */,
 			);
