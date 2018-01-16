@@ -87,7 +87,10 @@
 
 
 **Q: 什么是 UTI 类型?**
+
 A: [Uniform Type Identifiers](https://developer.apple.com/library/content/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_intro/understand_utis_intro.html) 
 
-参考地址 [详解苹果提供的UTI](https://www.jianshu.com/p/d6fe1e7af9b6)
+## 参考地址
+
+[详解苹果提供的UTI](https://www.jianshu.com/p/d6fe1e7af9b6)
 
