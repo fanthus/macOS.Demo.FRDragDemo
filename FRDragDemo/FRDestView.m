@@ -40,8 +40,6 @@
     [self setNeedsDisplay:YES];
 }
 
-
-
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
     NSBezierPath *path = [NSBezierPath bezierPathWithRect:dirtyRect];
@@ -64,11 +62,10 @@
     if ([pasteBoard canReadObjectForClasses:@[[NSURL class]] options:filteringOptions]) {
         canAccept = YES;
     }
-
+    //
     if ([pasteBoard.types containsObject:NSTIFFPboardType]) {
         canAccept = YES;
     }
-
     return canAccept;
 }
 
