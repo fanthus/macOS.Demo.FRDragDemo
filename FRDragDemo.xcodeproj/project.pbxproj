@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B532FF42200C9E4900D45B15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FF41200C9E4900D45B15 /* AppDelegate.m */; };
+		B532FF45200C9E4900D45B15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FF44200C9E4900D45B15 /* ViewController.m */; };
+		B532FF47200C9E4900D45B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B532FF46200C9E4900D45B15 /* Assets.xcassets */; };
+		B532FF4A200C9E4900D45B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B532FF48200C9E4900D45B15 /* Main.storyboard */; };
+		B532FF4D200C9E4900D45B15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FF4C200C9E4900D45B15 /* main.m */; };
+		B532FF58200C9E4A00D45B15 /* FRDragDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FF57200C9E4A00D45B15 /* FRDragDemoTests.m */; };
+		B532FF63200C9E4A00D45B15 /* FRDragDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FF62200C9E4A00D45B15 /* FRDragDemoUITests.m */; };
+		B532FFB5200DC9D300D45B15 /* FRDestView.m in Sources */ = {isa = PBXBuildFile; fileRef = B532FFB4200DC9D300D45B15 /* FRDestView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B532FF54200C9E4A00D45B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B532FF35200C9E4900D45B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B532FF3C200C9E4900D45B15;
+			remoteInfo = FRDragDemo;
+		};
+		B532FF5F200C9E4A00D45B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B532FF35200C9E4900D45B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B532FF3C200C9E4900D45B15;
+			remoteInfo = FRDragDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B532FF3D200C9E4900D45B15 /* FRDragDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRDragDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B532FF40200C9E4900D45B15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B532FF41200C9E4900D45B15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B532FF43200C9E4900D45B15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B532FF44200C9E4900D45B15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B532FF46200C9E4900D45B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B532FF49200C9E4900D45B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B532FF4B200C9E4900D45B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B532FF4C200C9E4900D45B15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B532FF4E200C9E4900D45B15 /* FRDragDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FRDragDemo.entitlements; sourceTree = "<group>"; };
+		B532FF53200C9E4A00D45B15 /* FRDragDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRDragDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B532FF57200C9E4A00D45B15 /* FRDragDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRDragDemoTests.m; sourceTree = "<group>"; };
+		B532FF59200C9E4A00D45B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B532FF5E200C9E4A00D45B15 /* FRDragDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRDragDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B532FF62200C9E4A00D45B15 /* FRDragDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRDragDemoUITests.m; sourceTree = "<group>"; };
+		B532FF64200C9E4A00D45B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B532FFB3200DC9D300D45B15 /* FRDestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRDestView.h; sourceTree = "<group>"; };
+		B532FFB4200DC9D300D45B15 /* FRDestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRDestView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B532FF3A200C9E4900D45B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B532FF50200C9E4A00D45B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B532FF5B200C9E4A00D45B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B532FF34200C9E4900D45B15 = {
+			isa = PBXGroup;
+			children = (
+				B532FF3F200C9E4900D45B15 /* FRDragDemo */,
+				B532FF56200C9E4A00D45B15 /* FRDragDemoTests */,
+				B532FF61200C9E4A00D45B15 /* FRDragDemoUITests */,
+				B532FF3E200C9E4900D45B15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B532FF3E200C9E4900D45B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B532FF3D200C9E4900D45B15 /* FRDragDemo.app */,
+				B532FF53200C9E4A00D45B15 /* FRDragDemoTests.xctest */,
+				B532FF5E200C9E4A00D45B15 /* FRDragDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B532FF3F200C9E4900D45B15 /* FRDragDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B532FF40200C9E4900D45B15 /* AppDelegate.h */,
+				B532FF41200C9E4900D45B15 /* AppDelegate.m */,
+				B532FF43200C9E4900D45B15 /* ViewController.h */,
+				B532FF44200C9E4900D45B15 /* ViewController.m */,
+				B532FFB3200DC9D300D45B15 /* FRDestView.h */,
+				B532FFB4200DC9D300D45B15 /* FRDestView.m */,
+				B532FF46200C9E4900D45B15 /* Assets.xcassets */,
+				B532FF48200C9E4900D45B15 /* Main.storyboard */,
+				B532FF4B200C9E4900D45B15 /* Info.plist */,
+				B532FF4C200C9E4900D45B15 /* main.m */,
+				B532FF4E200C9E4900D45B15 /* FRDragDemo.entitlements */,
+			);
+			path = FRDragDemo;
+			sourceTree = "<group>";
+		};
+		B532FF56200C9E4A00D45B15 /* FRDragDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B532FF57200C9E4A00D45B15 /* FRDragDemoTests.m */,
+				B532FF59200C9E4A00D45B15 /* Info.plist */,
+			);
+			path = FRDragDemoTests;
+			sourceTree = "<group>";
+		};
+		B532FF61200C9E4A00D45B15 /* FRDragDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B532FF62200C9E4A00D45B15 /* FRDragDemoUITests.m */,
+				B532FF64200C9E4A00D45B15 /* Info.plist */,
+			);
+			path = FRDragDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B532FF3C200C9E4900D45B15 /* FRDragDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B532FF67200C9E4A00D45B15 /* Build configuration list for PBXNativeTarget "FRDragDemo" */;
+			buildPhases = (
+				B532FF39200C9E4900D45B15 /* Sources */,
+				B532FF3A200C9E4900D45B15 /* Frameworks */,
+				B532FF3B200C9E4900D45B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRDragDemo;
+			productName = FRDragDemo;
+			productReference = B532FF3D200C9E4900D45B15 /* FRDragDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B532FF52200C9E4A00D45B15 /* FRDragDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B532FF6A200C9E4A00D45B15 /* Build configuration list for PBXNativeTarget "FRDragDemoTests" */;
+			buildPhases = (
+				B532FF4F200C9E4A00D45B15 /* Sources */,
+				B532FF50200C9E4A00D45B15 /* Frameworks */,
+				B532FF51200C9E4A00D45B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B532FF55200C9E4A00D45B15 /* PBXTargetDependency */,
+			);
+			name = FRDragDemoTests;
+			productName = FRDragDemoTests;
+			productReference = B532FF53200C9E4A00D45B15 /* FRDragDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B532FF5D200C9E4A00D45B15 /* FRDragDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B532FF6D200C9E4A00D45B15 /* Build configuration list for PBXNativeTarget "FRDragDemoUITests" */;
+			buildPhases = (
+				B532FF5A200C9E4A00D45B15 /* Sources */,
+				B532FF5B200C9E4A00D45B15 /* Frameworks */,
+				B532FF5C200C9E4A00D45B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B532FF60200C9E4A00D45B15 /* PBXTargetDependency */,
+			);
+			name = FRDragDemoUITests;
+			productName = FRDragDemoUITests;
+			productReference = B532FF5E200C9E4A00D45B15 /* FRDragDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B532FF35200C9E4900D45B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Fan's iMac ";
+				TargetAttributes = {
+					B532FF3C200C9E4900D45B15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B532FF52200C9E4A00D45B15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B532FF3C200C9E4900D45B15;
+					};
+					B532FF5D200C9E4A00D45B15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B532FF3C200C9E4900D45B15;
+					};
+				};
+			};
+			buildConfigurationList = B532FF38200C9E4900D45B15 /* Build configuration list for PBXProject "FRDragDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B532FF34200C9E4900D45B15;
+			productRefGroup = B532FF3E200C9E4900D45B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B532FF3C200C9E4900D45B15 /* FRDragDemo */,
+				B532FF52200C9E4A00D45B15 /* FRDragDemoTests */,
+				B532FF5D200C9E4A00D45B15 /* FRDragDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B532FF3B200C9E4900D45B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B532FF47200C9E4900D45B15 /* Assets.xcassets in Resources */,
+				B532FF4A200C9E4900D45B15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B532FF51200C9E4A00D45B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B532FF5C200C9E4A00D45B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B532FF39200C9E4900D45B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B532FF45200C9E4900D45B15 /* ViewController.m in Sources */,
+				B532FFB5200DC9D300D45B15 /* FRDestView.m in Sources */,
+				B532FF4D200C9E4900D45B15 /* main.m in Sources */,
+				B532FF42200C9E4900D45B15 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B532FF4F200C9E4A00D45B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B532FF58200C9E4A00D45B15 /* FRDragDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B532FF5A200C9E4A00D45B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B532FF63200C9E4A00D45B15 /* FRDragDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B532FF55200C9E4A00D45B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B532FF3C200C9E4900D45B15 /* FRDragDemo */;
+			targetProxy = B532FF54200C9E4A00D45B15 /* PBXContainerItemProxy */;
+		};
+		B532FF60200C9E4A00D45B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B532FF3C200C9E4900D45B15 /* FRDragDemo */;
+			targetProxy = B532FF5F200C9E4A00D45B15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B532FF48200C9E4900D45B15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B532FF49200C9E4900D45B15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B532FF65200C9E4A00D45B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B532FF66200C9E4A00D45B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B532FF68200C9E4A00D45B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FRDragDemo/FRDragDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				INFOPLIST_FILE = FRDragDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.FRDragDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B532FF69200C9E4A00D45B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FRDragDemo/FRDragDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				INFOPLIST_FILE = FRDragDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.FRDragDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B532FF6B200C9E4A00D45B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				INFOPLIST_FILE = FRDragDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.FRDragDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRDragDemo.app/Contents/MacOS/FRDragDemo";
+			};
+			name = Debug;
+		};
+		B532FF6C200C9E4A00D45B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				INFOPLIST_FILE = FRDragDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.FRDragDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FRDragDemo.app/Contents/MacOS/FRDragDemo";
+			};
+			name = Release;
+		};
+		B532FF6E200C9E4A00D45B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				INFOPLIST_FILE = FRDragDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.FRDragDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FRDragDemo;
+			};
+			name = Debug;
+		};
+		B532FF6F200C9E4A00D45B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DZQ5YNVEU2;
+				INFOPLIST_FILE = FRDragDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Frank.FRDragDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FRDragDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B532FF38200C9E4900D45B15 /* Build configuration list for PBXProject "FRDragDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B532FF65200C9E4A00D45B15 /* Debug */,
+				B532FF66200C9E4A00D45B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B532FF67200C9E4A00D45B15 /* Build configuration list for PBXNativeTarget "FRDragDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B532FF68200C9E4A00D45B15 /* Debug */,
+				B532FF69200C9E4A00D45B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B532FF6A200C9E4A00D45B15 /* Build configuration list for PBXNativeTarget "FRDragDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B532FF6B200C9E4A00D45B15 /* Debug */,
+				B532FF6C200C9E4A00D45B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B532FF6D200C9E4A00D45B15 /* Build configuration list for PBXNativeTarget "FRDragDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B532FF6E200C9E4A00D45B15 /* Debug */,
+				B532FF6F200C9E4A00D45B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B532FF35200C9E4900D45B15 /* Project object */;
+}
